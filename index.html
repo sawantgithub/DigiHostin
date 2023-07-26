@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Digihost.in Assignment</title>
+</head>
+
+<body>
+    <!---    Tagline start         ----->
+    <div class="tagline">
+        <h1>Shop Smarter – Shop Online and Save!</h1>
+        <hr class="hr1">
+        <div class="taglineimg">
+
+            <img src="https://i.pinimg.com/originals/04/ca/e8/04cae85a22ac57efb27cdd47e03fb692.jpg" class="img-fluid" id="imgfluid" alt="img1">
+
+
+            <img src="https://ae01.alicdn.com/kf/Hf01e5fa706f642de94f61dfab43857feO/6-Color-Plus-Size-6XL-7XL-8XL-Men-Short-Sleeve-T-Shirt-Summer-New-Casual-Loose.jpg" class="img-fluid" id="imgfluid" alt="img1">
+
+
+            <img src="https://oscula.in/assets/images/about/about.jpg" class="img-fluid" id="imgfluid" alt="img1">
+
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <h4>Shop Now</h4>
+        </button>
+    </div>
+    <!---    Tagline end         ----->
+
+    <!---    FeaturedProducts start         ----->
+    <div class="FeaturedProducts">
+        <h1 class="texth1">Featured Products</h1>
+        <div class="taglineimg2">
+            <div class="polaroid">
+                <img src="https://i.pinimg.com/originals/ea/ff/dc/eaffdcce54ec1e5e21f951e11ace6eb0.jpg" class="img-fluid" id="imgfluid2" alt="img1">
+                <div class="container">
+                    <span>Ribbon Back Tee, Brown T-shirt Women's</span>
+                    <h4>Price: $300</h4>
+                </div>
+            </div>
+            <div class="polaroid1">
+                <img src="http://img.shein.com/images/shein.com/201703/9a/14896271311916058236_thumbnail_405x552.jpg" class="img-fluid" id="imgfluid2" alt="img1">
+                <div class="container">
+                    <span>Burgundy Criss Cross Back T-shirt Women's</span>
+                    <h4>Price: $300</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---    FeaturedProducts end        ----->
+
+    <!---    Newsletter start       ----->
+
+    <hr>
+    <div class="Newsletter" class="input-group mb-3">
+        <div class="new2">
+            <h3>Newsletter
+            </h3>
+            <p class="new3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.aliquid laboriosam quia culpa, nesciunt ducimus <br> adipisicing elit.aliquid laboriosam quia culpa, nesciunt ducimus
+            </p>
+        </div>
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Username">
+        <button type="button" class="btn btn-secondary btn-sm" id="button1" onclick="showAlert()">
+            <h4>Subscribe</h4>
+        </button>
+    </div>
+    <hr>
+
+    <!---    Newsletter end       ----->
+
+    <!---  Last main section start              --->
+
+    <div class="lastsection">
+        <div class="last1">
+            <img src="https://i.pinimg.com/originals/9f/bb/70/9fbb70387b66c97dad00d42e92f8efd8.jpg" class="img-fluid" id="imgfluid3" alt="img1">
+            <div class="container">
+                <span>Shirt , RDX Shoes </span><br><br>
+                <h4>Price: $2000</h4>
+            </div>
+        </div>
+        <div class="last2">
+            <img src="https://tokyonominoichi.com/2022_spring/wp-content/uploads/2022/04/176062b1eaab6485ece9a1fa0ea849be-768x768.jpg" class="img-fluid" id="imgfluid4" alt="img1">
+            <div class="container">
+                <span>Formal Shirt</span>
+                <h4>Price: $300</h4>
+            </div>
+            <img src="https://i.pinimg.com/originals/a3/91/92/a3919251e70be318104e36b62ac133ef.jpg" class="img-fluid" id="imgfluid4" alt="img1">
+            <div class="container">
+                <span>Formal Shirt</span>
+                <h4>Price: $1100</h4>
+            </div>
+        </div>
+        <div class="last3">
+            <img src="https://image.freepik.com/free-photo/neatly-folded-jeans-wooden-background-clothing-fashion-style-lifestyle_308079-1438.jpg" class="img-fluid" id="imgfluid4" alt="img1">
+            <div class="container">
+                <span>Neatly-folded-jeans-wooden</span>
+                <h4>Price: $700</h4>
+            </div>
+            <img src="https://s3.amazonaws.com/images.ecwid.com/images/16648100/1922004420.jpg" class="img-fluid" id="imgfluid4" alt="img1">
+            <div class="container">
+                <span>Tracksuits Women Pants Outfits Hoodie Sweatshirt </span>
+                <h4>Price: $1400</h4>
+            </div>
+        </div>
+    </div>
+
+    <!---  Last main section end              --->
+
+
+
+    <!-- Modal -->
+
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Show Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Modal content goes here -->
+                    <p>BEST ONLINE DEALS AND OFFERS</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Additional buttons can be added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="external.js"></script>
+
+</body>
+
+</html>
